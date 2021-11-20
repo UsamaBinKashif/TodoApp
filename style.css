@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #272848;
+}
+header {
+    background-color: #FFFFFF;
+    color: #272848;
+    text-align: center;
+    box-shadow: 1px 1px 10px 2px #FFFFFF;
+    font-size: 0px;
+
+}
+
+.main {
+    text-align: center;
+    padding-top: 100px;
+    
+
+
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+}
+
+.inp input {
+    padding: 5px;
+    font-size: 15px;
+    border: 3px solid  #000000;
+    outline: none;
+
+
+}
+
+.inp input:focus {
+    border: 3px solid #0000007e;
+    outline: none;
+    transition: 0.4s;
+}
+
+.inp button {
+    padding: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn1 {
+    color: #FFFFFF;
+    background-color: #31e801;
+}
+
+.btn2 {
+    color: #FFFFFF;
+    background-color:#54c1fb ;
+}
+
+.itEms {
+    display: flex;
+    justify-content: center;
+}
+
+.ll {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 10px;
+    padding: 20px;
+    list-style: none;
+    color: #FFFFFF;
+   
+    
+
+}
+
+.editBtn {
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #8E05C2;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.deleteBtn {
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+.icons img{
+  width: 20px;
+}
+
+header h1{
+    font-size: 25px;
+}
+
+header h6{
+    font-size: 10px;
+}
